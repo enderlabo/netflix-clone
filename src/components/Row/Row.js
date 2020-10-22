@@ -31,7 +31,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
   };
 
   const handleClick = (movie) => {
-    if (!trailerUrl) {
+    if (trailerUrl) {
       setTrailerUrl("");
     } else {
       movieTrailer(movie?.original_name || "")
