@@ -20,7 +20,7 @@ function App() {
     <Navbar />
     {/* banner */}
     <Banner />
-    <Row title = "NETFLIX ORIGINALS" fetchUrl = { fetchNetflixOriginals } isLargeRow={ true } />
+    <Row title = "NETFLIX ORIGINALS" fetchUrl = { fetchNetflixOriginals } isLargeRow />
     <Row title = "Trending Now" fetchUrl = { fetchTrending } />
     <Row title = "Top Rated" fetchUrl = { fetchTopRated } />
     <Row title = "Action Movies" fetchUrl = { fetchActionMovies } />
